@@ -61,20 +61,20 @@ sh scripts/hyper_train.sh 0 Cambridge together RushH print 2
 
 ## Ablation study
 
+Please remove 'print 2' first for training.
 ```
 sh scripts/hyper_train.sh 1 12scenes together RHnoHyper print 2
 sh scripts/hyper_train.sh 1 12scenes together RHnoM print 2
 sh scripts/hyper_train.sh 0 12scenes together RHnoP print 2
 sh scripts/hyper_train.sh 0 12scenes together RHnoC print 2
-sh scripts/hyper_train.sh 0 12scenes together RHnoR print 2
 
+sh scripts/hyper_train.sh 1 7scenes together RHnoHyper print 2
 sh scripts/hyper_train.sh 1 7scenes together RHnoM print 2
 sh scripts/hyper_train.sh 1 7scenes together RHnoP print 2
 sh scripts/hyper_train.sh 1 7scenes together RHnoC print 2
-sh scripts/hyper_train.sh 1 7scenes together RHnoHyper print 2
 
+sh scripts/hyper_train.sh 0 Cambridge together RHnoHyper print 2
 sh scripts/hyper_train.sh 0 Cambridge together RHnoM print 2
 sh scripts/hyper_train.sh 0 Cambridge together RHnoP print 2
 sh scripts/hyper_train.sh 0 Cambridge together RHnoC print 2
-sh scripts/hyper_train.sh 0 Cambridge together RHnoHyper print 2
 ```
